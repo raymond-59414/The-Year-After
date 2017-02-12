@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  background-image: url("../images/background.jpg");
+  background-position:top;
+  background-size: 100%;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+/*nav styles*/
+nav {
+  color: #fff;
+  float: right;
+}
+
+nav li {
+  display: inline;
+  padding: 0 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:visited {
+  color:#fff;
+}
+
+/*index styles*/
+#quoteBlock {
+  width: 500px;
+  font-style: italic;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+#quoteBlock h2 {
+  font-weight: 200;
+}
+
+#quoteBlock p {
+  position: relative;
+  left: 45px;
+}
+
+#featuredWrapper {
+  text-align: center;
+  position: relative;
+  top: 475px;
+  height: 250px;
+  background-color: rgba(10,10,10,0.55);
+}
+
+#featured {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  bottom: 50px;
+}
+
+.featuredProfile {
+  width: 250px;
+  display: inline-block;
+  margin: 0 50px;
+}
+
+#indexLogo {
+  height: 45%;
+  position: absolute;
+  right: 120px;
+  top: 125px;
+}
+
+.previewImage {
+  height: 100px;
+  border-radius: 100%;
+  position: relative;
+  top: 45px;
+  left: 125px;
+}
+
+/* Page Styles */
+
+main {
+  position: relative;
+  top: 25px;
+  width: 100%;
+}
+
+main h1 {
+  text-align: center;
+  width: 175px;
+  border: 5px solid #ccc;
+  background-color: #555;
+  position: relative;
+  top: 40px;
+  left: 125px;
+}
+
+main a {
+  color: #fff;
+}
+
+#content {
+  margin: 0 150px;
+  background-color: #556;
+  padding: 10px 25px;
+}
+
+#letterTemplate {
+  height: 1100px;
+  width: 850px;
+}
+
+#templateWrapper {
+  text-align: center;
+}
